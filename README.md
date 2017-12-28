@@ -46,12 +46,18 @@ matrix.shape # 以元组的方式返回矩阵的行和列，即(m,n): m行n列
 matrix[i,j] # 返回矩阵[i,j]位置上的元素，即第i行，第j列的元素，i和j从0开始。
 matrix[i,:] # 取出第i行所有的元素，也是一个矩阵，1*n，1行n列的矩阵。
 matrix[:,j] # 取出第j行所有的元素，也是一个矩阵，m*1，m行1列的矩阵。
+
+matrix.sum() # 矩阵中所有的元素相加，得到一个整数
+matrix.sum(axis=0) # 将一个矩阵的每一个列向量相加，得到一个行向量
+matrix.sum(axis=1) # 将一个矩阵的每一个行向量相加，得到一个列向量
+matrix.argsort() # 返回的是数组值从小到大的索引值
 ```
 
 ## numpy api
 
 ```
 mat(list) # 将一个list转换成一个矩阵
+tile(A, reps) # 简单理解是此函数将A进行重复输出reps次
 ```
 
 ## python 安装matplotlib:
