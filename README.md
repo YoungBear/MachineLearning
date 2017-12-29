@@ -52,6 +52,13 @@ str.strip([chars]) # 删除 str 字符串头尾指定的字符（默认为空格
 str.split(str="", num=string.count(str)).
 ```
 
+### Python3 OS 文件/目录方法
+
+```
+os.listdir(path) # 用于返回指定的文件夹包含的文件或文件夹的名字的列表。这个列表以字母顺序。 它不包括 '.' 和'..' 即使它在文件夹中。
+只支持在 Unix, Windows 下使用。
+```
+
 ## numpy api
 
 `from numpy import *`

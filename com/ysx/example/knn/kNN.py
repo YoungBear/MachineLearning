@@ -30,7 +30,7 @@ def classify0(inX, dataSet, labels, k):
     return sortedClassCount[0][0]
 
 
-group, labels = createDataSet()
+# group, labels = createDataSet()
 
-test = classify0([0, 0], group, labels, 3)
-print(test)
+# test = classify0([0, 0], group, labels, 3)
+# print(test)
