@@ -1,6 +1,6 @@
 from geopy.geocoders import Nominatim
 
-geolocator = Nominatim()
+geolocator = Nominatim(user_agent="test_ysx")
 
 names = ['天安门', '雁栖湖', '清华大学']
 
